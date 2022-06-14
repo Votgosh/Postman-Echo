@@ -16,7 +16,7 @@ public class Postman {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(200)
+                .statusCode(100)
                 .body("data", equalTo("А что здесь происходит?"));
     }
 }
